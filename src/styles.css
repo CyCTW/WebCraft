@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+.navBar {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

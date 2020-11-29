@@ -1,0 +1,367 @@
+<!-- 
+復刻 Oursky 首頁：https://www.oursky.com/
+1. 不需要一模一樣
+2. 請忽略所有 JS 部分
+3. 此作業會以「HTML架構」為主要批改方向
+PS. 請盡量不要看網頁原始碼 HTML 架構，盡量自己試試看！
+PS. 可使用 bootstrap, tailwind 等 utility css library
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oursky Home Page</title>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width" name="viewport">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css"
+      integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <!-- TODO: write your code -->
+    <header>
+
+      <div class="d-md-flex container-fluid pt-2 justify-content-between fixed-top" style="background-color: blue">
+        <div class="font-weight-bold">
+          <a class="text-white" href="#" style="padding-left: 10px">OURSKY</a>
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item dropdown">
+            <a class="text-white p-2">Product</a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="#">Authgear</a>
+              <a class="dropdown-item" href="#">FormX.ai</a>
+              <a class="dropdown-item" href="#">Gesprek</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="text-white p-2">Services</a>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="#">Digital Product Development</a>
+                <a class="dropdown-item" href="#">FormX.ai</a>
+                <a class="dropdown-item" href="#">Gesprek</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="text-white p-2">Resources</a>
+            <div class="dropdown-content">
+              <a class="dropdown-item" href="#">Case Studies </a>
+              <a class="dropdown-item" href="#">Oursky Blog</a>
+              <a class="dropdown-item" href="#">Engineering Blog</a>
+              <a class="dropdown-item" href="#">Open-Source Projects</a>
+           </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="text-white p-2">About us</a>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="#">About Us</a>
+                <a class="dropdown-item" href="#">Tech Stack</a>
+                <a class="dropdown-item" href="#">Join Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="text-white bg-warning rounded-lg p-2"
+              >Start your project</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section>
+      <div class="d-sm-flex  justify-content-center" style="padding: 100px; background-color: blue; display: inline-block"> 
+        <div style="margin: auto; font-size: 30px; color: white; font-weight: bold; font-family: sans-serif ">
+          We design and develop award-winning applications
+        </div>
+        <div>
+          <img src="/src/img/oursky-hero.png" class="img-fluid" >
+        </div>
+
+      </div>
+    </section>
+
+    <section style="background-color: lightgray">
+    
+      <div class="container border rounded-lg" style="
+      margin: auto; 
+      position: relative; 
+      top: -40px; 
+      background-color: white; 
+      max-width: 400px;
+      padding: 15px;">
+        <div style=" font-size: 12px;">
+        Learned more about how we digitally transform businesses by creating amazing digital products
+        </div>
+        <div> 
+
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="d-lg-flex " style="padding: 100px; background-color: lightgray;">
+        <div style="padding: 30px">
+          <p>About us</p>
+          <strong>
+          Oursky is a team of talented developers, designers, data scientists, product and project managers and QA engineers working from Hong Kong, London, and Taipei. Using cutting-edge technologies, we are an end-to-end digital product, web, and mobile app development consultancy whose creations have garnered millions of downloads and awards from the Apple App Store and Asia Smart Apps Awards.
+          </strong>
+        </div>
+        <img src="/src/img/IG.png" class="img-fluid" style="max-width: 300px; max-height: 500px">
+        </img>
+      </div>
+    </section>
+
+    <section>
+      <div class="d-md-flex justify-content-center pt-5" style="background-color: white;">
+         <div class="card col-sm-6 col-md-4 p-3" style="margin: auto; border: none">
+           <img class="card-img-top" src="/src/img/asset 18.png">
+           <div class="card-img-overlay" style="color: white;">
+
+             <h4 class="card-title">
+             Case Study
+             </h4>
+
+             <h2 class="card-title">
+               ASOS
+             </h2>
+
+             <p class="card-text">
+               We helped ASOS blabla to finish their text
+             </p>
+
+           </div>
+         </div>
+      
+         <div class="card col-sm-6 col-md-4 p-3" style="margin: auto; border: none">
+            <img class="card-img-top" src="/src/img/asset 19.png">
+            <div class="card-img-overlay" style="color: white">
+
+              <h4 class="card-title">
+              Case Study
+              </h4>
+
+              <h2 class="card-title">
+                Jamn Player
+              </h2>
+              
+              <p class="card-text">
+                We want to finish our task and learn front end knowledge.
+              </p>
+
+            </div>
+         </div>
+
+         <div class="card col-sm-6 col-md-4 p-3" style="margin: auto; border: none">
+             <img class="card-img-top" src="/src/img/asset 20.gif">
+             <div class="card-img-overlay" style="color: white">
+               <h4 class="card-title">
+               Case Study
+               </h4>
+               <h2 class="card-title">
+                 Wilson Party
+               </h2>
+               <p class="card-text">
+                 I am new to frontend, hence, I think my html structure is bad. Sorry for the bad structure.QQ
+               </p>
+             </div>
+         </div>
+
+      </div>
+    </section>
+    <section>
+      <div class="container pt-5">
+        <p>Explore more of our work >>></p>
+      </div>
+
+      <div class="d-md-flex justify-content-between" style="background-color: lightgray; padding: 30px">
+        <div class="container">
+          <h3><strong>Digital transformation powered by ingenuity</strong></h3>
+          <p>
+              We don’t just build apps. Oursky creates digital experiences that help our partners succeed in today’s fast-paced business landscape.
+          </p>
+          <p>
+              We work with founders in creating their blueprints for success — from minimum viable products (MVPs) to interactive prototypes. Oursky uses an iterative approach to help startups launch faster, scale quickly, and deliver great user experience.
+          </p>
+          <p>    
+              Oursky partners with enterprises to fast-track their digital transformation, helping them adopt and transition to cloud-native technologies and microservices.
+          </p>
+        </div>  
+        <div class="container" style="background-color:white; margin: 30px;">
+          <h4>Core Services</h4>
+          <div class="list-group ">
+            <a href="#" class="list-group-item list-group-item-action";  style="border: none">
+              <img src="/src/img/asset 0.svg" style="display: inline-block; width: 50px; height: 60px">
+              <div style="display: inline-block; vertical-align: middle">
+                <strong>Digital Product Development</strong>
+                <p>Accuracy and creativity for mobile</p>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action" style="border: none">
+              <img src="/src/img/asset 1.svg" style="display: inline-block; width: 50px; height: 60px">
+              <div style="display: inline-block; vertical-align: middle">
+                <strong>Digital Product Development</strong>
+                <p>Accuracy and creativity for mobile</p>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action" style="border: none">
+                <img src="/src/img/asset 2.svg" style="display: inline-block; width: 50px; height: 60px">
+                <div style="display: inline-block; vertical-align: middle">
+                  <strong>Digital Product Development</strong>
+                  <p>Accuracy and creativity for mobile</p>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action" style="border: none">
+                <img src="/src/img/asset 4.png" style="display: inline-block; width: 50px; height: 60px">
+                <div style="display: inline-block; vertical-align: middle">
+                  <strong>Digital Product Development</strong>
+                  <p>Accuracy and creativity for mobile</p>
+                </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="d-md-flex justify-content-between" style="background-color: white; padding: 30px">
+             
+            <div class="container" style="background-color:white; margin: 30px">
+              <h4>Products</h4>
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action" style="border: none" >
+                  <img src="/src/img/asset 5.png" style="display: inline-block; width: 50px; height: 60px">
+                  <div style="display: inline-block; vertical-align: middle">
+                    <strong>Digital Product Development</strong>
+                    <p>Accuracy and creativity for mobile</p>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" style="border: none">
+                  <img src="/src/img/asset 6.png" style="display: inline-block; width: 50px; height: 60px">
+                  <div style="display: inline-block; vertical-align: middle">
+                    <strong>Digital Product Development</strong>
+                    <p>Accuracy and creativity for mobile</p>
+                  </div>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" style="border: none">
+                    <img src="/src/img/asset 7.png" style="display: inline-block; width: 50px; height: 60px">
+                    <div style="display: inline-block; vertical-align: middle">
+                      <strong>Digital Product Development</strong>
+                      <p>Accuracy and creativity for mobile</p>
+                    </div>
+                </a>
+    
+              </div>
+            </div>
+            <div class="container">
+                <h3><strong>We’re your low-code solution for your next IT project.</strong></h3>
+                <p>
+                    We don’t just build apps. Oursky creates digital experiences that help our partners succeed in today’s fast-paced business landscape.
+                </p>
+                <p>
+                    We work with founders in creating their blueprints for success — from minimum viable products (MVPs) to interactive prototypes. Oursky uses an iterative approach to help startups launch faster, scale quickly, and deliver great user experience.
+                </p>
+                <p>    
+                    Oursky partners with enterprises to fast-track their digital transformation, helping them adopt and transition to cloud-native technologies and microservices.
+                </p>
+              </div> 
+          </div>
+    </section>
+    <section>
+      <div class="container-fluid" style="background-color: lightgray">
+        <div class="container pt-5" style="max-width: 800px; padding: 50px">
+          <h4 style="font-family: sans-serif; font-weight: 800"">We help companies around the world bring their ideas to life.</h4>
+        </div>
+
+        <div class="row" style="max-width: 60%;  margin: auto">
+          <img src="/src/img/asset 8.svg" class="col-md-3 col-sm-6">
+          <img src="/src/img/asset 9.svg" class="col-md-3 col-sm-6">
+          <img src="/src/img/asset 10.svg" class="col-md-3 col-sm-6">
+          <img src="/src/img/asset 11.svg" class="col-md-3 col-sm-6">
+        </div>
+        
+        <div class="row" style="max-width: 60%; margin: auto; padding-bottom: 100px">
+            <img src="/src/img/asset 12.svg" class="col-md-3 col-sm-6">
+            <img src="/src/img/asset 13.svg" class="col-md-3 col-sm-6">
+            <img src="/src/img/asset 14.svg" class="col-md-3 col-sm-6">
+            <img src="/src/img/asset 15.svg" class="col-md-3 col-sm-6">
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div style="background-color:#1c274a; text-align: center; padding: 5%">
+        <h3 style="color: white">We build award-winning digital products.</h3>
+        <h4 style="color: white"ddd>Oursky can help you create one.</h4>
+        <button type="button" class="btn btn-warning" style="margin: 20px">Let's talk</button>
+
+      </div>
+    </section>
+
+    <footer style="background-color: black; color: white">
+      <div class="container" >
+        <div class="row d-md-flex" >
+          <div class="col" style="padding: 10px">
+            ORUSKY
+          </div>
+          <div class="col" style="padding-top: 30px">
+            <h5>Products</h5>
+
+            <ul class="list-unstyled">
+              <li>Authgear</li>
+              <li>Authgear</li>
+              <li>Authgear</li>
+              <li>Authgear</li>
+
+            </ul>
+          </div>
+
+          <div class="col" style="padding-top: 30px">
+              <h5>Services</h5>
+    
+              <ul class="list-unstyled">
+                <li>Digital Product Development</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+    
+              </ul>
+            </div>
+
+          <div class="col" style="padding-top: 30px">
+              <h5>Know more</h5>
+    
+              <ul class="list-unstyled">
+                <li>About us</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+              </ul>
+          </div>
+          <div class="col" style="padding-top: 30px">
+              <h5>Connect</h5>
+    
+              <ul class="list-unstyled">
+                <li>Facebook</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+                <li>Authgear</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
